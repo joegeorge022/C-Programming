@@ -5,7 +5,7 @@ int main(){
     int size = sizeof(array)/sizeof(array[0]);
     for(int i=0;i<size-1;i++){
         for(int j=0;j<size-1;j++){
-            if(array[j]>array[j+1]){   // to sort in descending order change this to <
+            if(array[j]>array[j+1]){   // to sort in descending order change the > to < inside the if condition
                 int temp = array[j];
                 array[j] = array[j+1];
                 array[j+1] = temp;
@@ -21,6 +21,12 @@ int main(){
 
 
 // EASYYY👆👆👆👆👆👆👆👆👆👆👆
+// Honestly tho this code is absolutely fine and standard. You could scroll down if you want to
+
+
+
+
+
 
 
 
