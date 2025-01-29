@@ -1,6 +1,10 @@
 #include <stdio.h>
 
 int main(){
+    /*1. Largest of Three Numbers: Write a program to input three numbers and find
+    the largest among them using nested if statements. Display appropriate messages 
+    for each scenario.*/
+    
     int num1,num2,num3;
     
     printf("Enter numbers: ");
