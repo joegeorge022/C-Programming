@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main(){
     char operator;
     int num1, num2, result;
@@ -5,10 +7,10 @@ int main(){
     printf("Choose an operator +, -, *, /, %%: ");
     scanf("%c", &operator);
     
-    printf("Enter number1: ");
+    printf("Enter number-1: ");
     scanf("%d", &num1);
 
-    printf("Enter number2: ");
+    printf("Enter number-2: ");
     scanf("%d", &num2);
     
     switch(operator){
@@ -34,7 +36,7 @@ int main(){
 
         case '%':
         result=num1%num2;
-        printf("Remainder2 numbers is %d \n",result);
+        printf("Remainder of 2 numbers is %d \n",result);
         break;
 
         default:
