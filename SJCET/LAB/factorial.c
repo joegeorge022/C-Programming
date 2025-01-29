@@ -10,12 +10,15 @@ int main(){
     printf("Enter Number: ");
     scanf("%d", &num);
     
-    while(num>0){
-        result *= num;
-        num -= 1;    
+    if(num>0){
+        while(num>0){
+            result *= num;
+            num -= 1;    
+        }
+        printf("%d is the factorial. \n",result);
+    } else{
+        printf("Enter a positive number. \n");
     }
-    
-    printf("%d is the factorial. \n",result);
     
     return 0;
 }
