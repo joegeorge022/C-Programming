@@ -13,7 +13,7 @@ int main(){
     if (num1 > num2){
         if(num1 > num3){
             printf("%d is largest.\n", num1);
-        } else if (num1 = num3){
+        } else if (num1 == num3){
             printf("%d and %d are same \n", num1, num3);
         } else {
             printf("%d is largest.\n", num3);
@@ -21,7 +21,7 @@ int main(){
     } else if (num2 > num1){
         if(num2 > num3){
             printf("%d is largest.\n",num2);
-        } else if (num2 = num3){
+        } else if (num2 == num3){
             printf("%d and %d are same \n", num2, num3);
         } else {
             printf("%d is largest.\n", num3);
