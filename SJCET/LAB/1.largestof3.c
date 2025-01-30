@@ -27,7 +27,7 @@ int main(){
             printf("%d is largest.\n", num3);
         }
     } else{
-        if(num2 = num3){
+        if(num2 == num3){
             printf("Three numbers are same. \n");
         }
         else{
