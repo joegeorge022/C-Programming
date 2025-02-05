@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main() {
+    /*5. Find Maximum and Minimum: Write a program to input elements into a one-dimensional array and find the maximum and minimum elements. Display their positions in the array.*/
+
     int size, min = 1, max = 1;
     printf("Enter the size of the array: ");
     scanf("%d", &size);
