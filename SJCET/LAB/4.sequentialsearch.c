@@ -7,21 +7,25 @@ int main() {
     
     int size, value;
     
+    //asks for the size of the array
     printf("Enter the size of the array: ");
     scanf("%d", &size);
-    
+
+    //inputs the elements accordingly    
     int array[size];
     for (int i = 0; i<size; i++) {
         printf("Enter the %dth element: ", i+1);
         scanf("%d", &array[i]);
     }
-    
+
+    //searches for the number you input 
     printf("\nEnter the number you want to search: ");
     scanf("%d", &value);
     
+    //prints the index of the number
     for(int j = 0; j<size; j++){
         if(array[j]==value){
             printf("The element %d is at index %d. \n", value, j+1);
         }
-    }
+    } 
 }
