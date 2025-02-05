@@ -9,20 +9,19 @@ int main() {
     
     printf("Enter the size of the array: ");
     scanf("%d", &size);
-
+    
     int array[size];
-
-    printf("Enter the elements:\n");
-    for (int i = 0; i < size; i++) {
+    for (int i = 0; i<size; i++) {
+        printf("Enter the %dth element: ", i+1);
         scanf("%d", &array[i]);
     }
-
-    printf("Enter the number you want to search: ");
+    
+    printf("\nEnter the number you want to search: ");
     scanf("%d", &value);
     
-    for (int j = 0; j < size; j++) {
-        if (array[j] == value) {
-            printf("The element %d is at index %d.\n", value, j + 1);
+    for(int j = 0; j<size; j++){
+        if(array[j]==value){
+            printf("The element %d is at index %d. \n", value, j+1);
         }
     }
 }
