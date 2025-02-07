@@ -1,4 +1,9 @@
 #include <stdio.h>
+/*
+    Joe George
+    CSE- B
+    Roll: 40
+*/
 
 int main(){
     /*1. Largest of Three Numbers: Write a program to input three numbers and find
