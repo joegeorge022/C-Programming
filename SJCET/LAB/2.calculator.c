@@ -1,4 +1,9 @@
 #include <stdio.h>
+/*
+    Joe George
+    CSE- B
+    Roll: 40
+*/
 
 int main(){
     /*2. Write a C program that acts as a simple calculator. The program should take
