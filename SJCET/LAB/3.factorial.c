@@ -1,4 +1,9 @@
 #include <stdio.h>
+/*
+    Joe George
+    CSE- B
+    Roll: 40
+*/
 
 int main() {
     /*3. Factorial Using While Loop: Write a program to calculate the factorial of a
