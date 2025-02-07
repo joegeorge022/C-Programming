@@ -1,4 +1,9 @@
 #include <stdio.h>
+/*
+    Joe George
+    CSE- B
+    Roll: 40
+*/
 
 int main() {
     /*4. Sequential Search: Create a program to perform a sequential search in a one
