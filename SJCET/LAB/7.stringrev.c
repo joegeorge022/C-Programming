@@ -6,7 +6,7 @@
 */
 
 int main(){
-    /* 6.Reverse a String: Write a program to reverse a string
+    /* 7.Reverse a String: Write a program to reverse a string
     entered by the user without using string library functions.
     Display the reversed string.*/
     
