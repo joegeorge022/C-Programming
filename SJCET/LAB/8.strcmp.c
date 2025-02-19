@@ -7,7 +7,7 @@
 */
 
 int main(){
-    /* 7.Compare Two Strings: Create a program to input two strings
+    /* 8.Compare Two Strings: Create a program to input two strings
     and compare them using the strcmp() function. Display whether
     the strings are equal or not.*/
     
