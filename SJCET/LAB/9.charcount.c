@@ -6,7 +6,7 @@
 */
 
 int main(){
-    /* 8.Character Frequency Count: Write a program to count the
+    /* 9.Character Frequency Count: Write a program to count the
     frequency of each character in a given string. Ignore case
     sensitivity and consider only alphabetical characters.*/
     
