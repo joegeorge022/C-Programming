@@ -1,10 +1,9 @@
+#include <stdio.h>
 /*
     Joe George
     CSE- B
     Roll: 40
 */
-
-#include <stdio.h>
 
 int power(int base, int pow){
     if (pow==0){
