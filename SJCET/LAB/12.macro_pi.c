@@ -1,13 +1,13 @@
-/*  Joe George
+#include <stdio.h>
+/*
+    Joe George
     CSE- B
     Roll: 40
 */
-
-#include <stdio.h>
-
+ 
 #define PI 3.14159
-#define circle PI*radius*radius
-#define cylinder PI*radius*radius*height
+#define circle(radius) PI*radius*radius
+#define cylinder(radius,height) PI*radius*radius*height
 
 int main(){
     int radius, height;
@@ -18,8 +18,8 @@ int main(){
     printf("Enter the height of cylinder: ");
     scanf("%d", &height);
 
-    printf("Area of Circle: %f \n",circle);
-    printf("Area of Cylinder: %f \n",cylinder);
+    printf("Area of Circle: %f \n",circle(radius));
+    printf("Area of Cylinder: %f \n",cylinder(radius,height));
     
     return 0;
 }
