@@ -3,9 +3,7 @@
     CSE- B
     Roll: 40
 */
-
 #include <stdio.h>
-#include <string.h>
 
 typedef struct{
     char name[30];
