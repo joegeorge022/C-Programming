@@ -26,6 +26,11 @@ int main(){
         printf("\nEnter the name of Student-%d: ",i+1);
         scanf("%[^\n]%*c", s[i].name);
 
+        /*
+        scanf("%[^\n]", string) leaves the newline character (\n) in the input buffer.
+        scanf("%[^\n]%*c", string) reads and discards the newline character, clearing it from the buffer.
+        */
+
         printf("Enter the roll no. of Student-%d: ",i+1);
         scanf("%d", &s[i].roll);
 
