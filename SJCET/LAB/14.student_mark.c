@@ -44,7 +44,7 @@ int main(){
         total_mark += s[i].mark_1 + s[i].mark_2 + s[i].mark_3;
     }
 
-    int avg_mark = total_mark / (n * 3);  // More accurate: avg per subject per student
+    int avg_mark = total_mark / (n * 3);
  
     printf("\nTotal Marks : %d \n", total_mark);
     printf("Average Marks : %d \n\n", avg_mark);
