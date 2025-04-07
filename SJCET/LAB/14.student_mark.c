@@ -39,15 +39,15 @@ int main(){
         scanf("%d", &s[i].mark_3);
     }
 
-    int total_mark;
+    int total_mark = 0;
     for (int i=0; i<n; i++){
         total_mark += s[i].mark_1 + s[i].mark_2 + s[i].mark_3;
-
     }
-    int avg_mark = total_mark/n;
+
+    int avg_mark = total_mark / (n * 3);  // More accurate: avg per subject per student
  
     printf("\nTotal Marks : %d \n", total_mark);
-    printf("Average Marks : %d \n \n", avg_mark);
+    printf("Average Marks : %d \n\n", avg_mark);
 
     return 0;
 }
